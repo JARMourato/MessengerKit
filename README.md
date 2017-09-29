@@ -5,25 +5,24 @@
 [![License](https://img.shields.io/cocoapods/l/MessengerKit.svg?style=flat)](http://cocoapods.org/pods/MessengerKit)
 [![Platform](https://img.shields.io/cocoapods/p/MessengerKit.svg?style=flat)](http://cocoapods.org/pods/MessengerKit)
 
-## Example
+## Coming Soon
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+A full port of [SlackTextViewController](https://github.com/slackhq/SlackTextViewController) to Swift.
 
-## Requirements
+## Huh?
 
-## Installation
+SlackTextViewController doesn't have a lot of activity or [releases](https://github.com/slackhq/SlackTextViewController/releases) these days, but it's such a useful library and a solid alternative to other great messaging libraries it would be sad to see it die a silent death.
 
-MessengerKit is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+## Why?
 
-```ruby
-pod 'MessengerKit'
-```
+For some apps simplicity is best and utilizing a UITableView or UICollectionView for messaging is perfect but there needs to be a little more provided to better utilize them as messaging apps. That's where MessengerKit comes in. It's simply a UITableViewController, or UICollectionViewController, and you have full control over the experience, but with a little splash of magic sauce on top to help craft the ideal messaging feature.
 
-## Author
+## When?
 
-ajself, aj.self3@gmail.com
+The roadmap is tentatively as such:
 
-## License
+-  [ ] As reasonable as possible port the Obj-C version over to Swift in a 1:1 fashion so it can be drop in ready
 
-MessengerKit is available under the MIT license. See the LICENSE file for more info.
+- [ ] Clean up - utilize Swift specific features to overhaul the internals and spec out if there would be any API changes. Ideally they are light.
+
+- [ ] Move on - add in new features!
